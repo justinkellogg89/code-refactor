@@ -20,11 +20,15 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*Changed header seo from header h1 seo to
+gain desired coloring in HORISEON title*/
+.header .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*Changed next three attribute sections to header nav
+in order to correctly correspond with index.html*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +36,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
